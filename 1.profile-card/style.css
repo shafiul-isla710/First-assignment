@@ -1,0 +1,119 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-color:#E5DDC5 ;
+}
+
+
+.profile{
+    height:570px;
+    width:440px;
+    background:linear-gradient( 0deg,    #ffff 75%,rgb(170, 167, 167) 25%) ;
+    border-radius:3%;
+    padding:30px;
+    box-shadow: 2px 3px 2px gray;
+}
+
+img{
+    height:155px;
+    width:155px;
+    border-radius:50%;
+    border:4px solid white;
+    transform:translate(110px,10px)
+}
+
+.profile h3{
+    font-size:35px;
+     transform: translate(55px,15px);
+     color:black;
+     font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.profile .p1{
+    font-size:15px;
+    transform:translate(90px,20px);
+    color:rgb(77, 72, 72);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300 ;
+    font-style: normal
+}
+.profile .p2{
+    margin-top:30px;
+    margin-left:20px;
+    text-align-last:center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300 ;
+    font-style: normal;
+    font-size:18px;
+    color:black;
+    
+}
+
+
+/* contact-box start*/
+.contact-box{
+    display:flex; 
+    gap:40px;
+    transform:translate(55px,30px)
+}
+#one{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    gap:5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300 ;
+    font-style: normal;
+    font-size:15px;
+    color:black;
+}
+
+
+/* contact-box end*/
+
+/* button box start */
+
+.button-box{
+    transform:translate(45px,80px);
+    display:flex;
+    gap:40px;
+}
+
+button{
+    height:45px;
+    width:130px; 
+    font-size:17px;
+}
+
+.follow{
+    border:4px solid black;
+    background-color:white;
+    color:black;
+    border-radius:5px;
+    box-shadow:2px 2px gray;
+    cursor:pointer;
+}
+
+.here-me{
+    background-color: black;
+    color:white;
+    border-radius:5px;
+    box-shadow:2px 2px gray;
+   cursor:pointer;
+}
+.here-me:hover{
+    background-color:rgb(34, 32, 32);
+}
+
+
+/* button box end */
+
+
